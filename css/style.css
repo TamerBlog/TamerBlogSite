@@ -1,0 +1,42 @@
+/*Cайт*/
+body{
+    background: #18191a;
+}
+
+/*Окно после авторизации*/
+#Done{
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: block;
+}
+#Done_info{
+    color: #ffffff;
+    font-style: italic;
+    margin-top: 25px;
+    font-size: xx-large;
+}
+#Done_info_2{
+    color: #ffffff;
+    font-style: italic;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+#Authorize_login{
+    border: none;
+    font-style: italic;
+    font-size: x-large;
+    outline: none;
+    display: block;
+    color: #000000;
+    margin: 15px auto;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: #638fec;
+}
